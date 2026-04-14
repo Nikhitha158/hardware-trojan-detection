@@ -4,20 +4,12 @@
 *A Siamese deep learning framework for efficient hardware Trojan detection using power side-channel data*  
 Scientific Reports. DOI: https://doi.org/10.1038/s41598-024-62744-2
 
-**Course:** CEG 7900 — Trustworthy AI Hardware  
-**Wright State University — Spring 2026**  
-**Instructor:** Dr. Fathi Amsaad  
-
----
-
 ## Overview
 
 This repository reimplements the Siamese neural network framework from Nasr et al. (2024)
 for Hardware Trojan detection using power side-channel signals. We replicate the three
 baseline architectures (CNN, GRU, LSTM) and extend the work with a fourth model —
 a Bidirectional LSTM with an attention mechanism.
-
----
 
 ## Our Improvements Over the Paper
 
@@ -30,7 +22,6 @@ a Bidirectional LSTM with an attention mechanism.
 | Early Stopping | Prevents overfitting automatically |
 | Multi-Trojan Training | Uses T400+T500+T600+T700 datasets combined |
 
----
 
 ## Results
 
@@ -40,10 +31,6 @@ a Bidirectional LSTM with an attention mechanism.
 | Siamese GRU | 83.59% | TBD |
 | Siamese LSTM | 86.78% | TBD |
 | BiLSTM + Attention (ours) | N/A | TBD |
-
-*Results will be updated after full multi-dataset training*
-
----
 
 ## Dataset
 
