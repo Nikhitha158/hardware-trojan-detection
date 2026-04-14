@@ -1,7 +1,7 @@
 # Hardware Trojan Detection — Siamese Deep Learning
 
-**Reimplementation of:** Nasr et al. (2024)  
-*A Siamese deep learning framework for efficient hardware Trojan detection using power side-channel data*  
+**Reimplementation of:** Nasr et al. (2024)
+*A Siamese deep learning framework for efficient hardware Trojan detection using power side-channel data*
 Scientific Reports. DOI: https://doi.org/10.1038/s41598-024-62744-2
 
 ## Overview
@@ -11,7 +11,7 @@ for Hardware Trojan detection using power side-channel signals. We replicate the
 baseline architectures (CNN, GRU, LSTM) and extend the work with a fourth model —
 a Bidirectional LSTM with an attention mechanism.
 
-## Our Improvements Over the Paper
+## Improvements Over the Paper
 
 | Improvement | Description |
 |---|---|
@@ -25,16 +25,16 @@ a Bidirectional LSTM with an attention mechanism.
 
 ## Results
 
-| Model | Paper Accuracy | Our Accuracy |
+| Model | Paper Accuracy | reimplementation Accuracy |
 |---|---|---|
 | Siamese CNN | 73.54% | TBD |
 | Siamese GRU | 83.59% | TBD |
 | Siamese LSTM | 86.78% | TBD |
-| BiLSTM + Attention (ours) | N/A | TBD |
+| BiLSTM + Attention  | N/A | TBD |
 
 ## Dataset
 
-Hardware Trojan Power & EM Side-Channel Dataset — IEEE DataPort  
+Hardware Trojan Power & EM Side-Channel Dataset — IEEE DataPort
 DOI: https://dx.doi.org/10.21227/9fwb-8978
 
 Download and place these zip files in the same folder as the notebook:
@@ -60,5 +60,4 @@ jupyter notebook siamese_ht_detection.ipynb
 ```
 
 ---
-
 
