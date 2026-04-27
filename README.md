@@ -48,7 +48,7 @@ Download and place these zip files in the same folder as the notebook:
 ## How to Run
 
 ### Option 1 — Google Colab (recommended)
-1. Open `siamese_ht_detection.ipynb` in Google Colab
+1. Open `reimplementationcode.ipynb` in Google Colab
 2. Enable T4 GPU: Runtime → Change runtime type → T4 GPU
 3. Upload your dataset zip files
 4. Run all cells: Runtime → Run all
@@ -56,7 +56,7 @@ Download and place these zip files in the same folder as the notebook:
 ### Option 2 — Local Jupyter
 ```bash
 pip install -r requirements.txt
-jupyter notebook siamese_ht_detection.ipynb
+jupyter notebook reimplementationcode.ipynb
 ```
 
 ---
