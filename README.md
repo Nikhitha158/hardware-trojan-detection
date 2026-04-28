@@ -30,7 +30,7 @@ a Bidirectional LSTM with an attention mechanism.
 | Residual DNN (53 features) | T400 | 50.22% | 0.5964 | 0.513 |
 | Residual DNN (53 features) | T500 | 61.33% | 0.3696 | 0.645 |
 | Residual DNN (53 features) | T600 | 53.11% | 0.6349 | 0.572 |
-| Residual DNN (53 features) | T700 | 76.44% | 0.6936 | 0.792 |
+| Residual DNN (53 features) | T700 | 75.58% | 0.7028 | 0.797 |
 | Random Forest (53 features) | T700 | 77.92% | — | — |
 | SVM RBF (53 features) | T700 | 76.00% | — | — |
 
